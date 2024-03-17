@@ -1,0 +1,22 @@
+package oop;
+
+public class Student1 {
+public static void main(String[] args) {
+
+	
+	
+	
+	Student Student1 = new Student("Naim",20);
+	
+	Student1.displayinformation();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+}
