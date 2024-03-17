@@ -1,0 +1,39 @@
+package oop;
+
+public class Student {
+	static String u = "pu";//this is static variable declare
+
+	String name;
+	int id;
+	
+	Student(String n,int id){
+		name = n;
+		id = id;
+			
+		
+	}
+	
+	
+	void displayinformation() {
+		
+		
+		
+		System.out.println("name = "+name);
+		System.out.println("id = "+id);
+		System.out.println("University = "+u);
+
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
