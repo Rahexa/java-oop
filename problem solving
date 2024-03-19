@@ -1,0 +1,39 @@
+package oop;
+
+public class Box {
+double height;
+double weight;
+double dept;
+	
+	Box(double h,double w,double d){
+		
+		height = h;
+		weight = w;
+		dept = d;
+		
+	}
+	
+	void displayinformation() {
+		Double volume = height*weight*dept;
+		System.out.println("vol = "+volume);
+		
+
+	}
+	
+	public static void main(String[] args) {
+		
+		Box Box1 = new Box( 10,10,10);
+		
+		Box1.displayinformation();
+		Box Box2 = new Box( 20,30,10);
+Box2.displayinformation();
+		
+	}
+	
+	
+	
+	
+	
+	
+
+}
