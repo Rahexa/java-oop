@@ -1,0 +1,33 @@
+public class Student {
+    String name;
+    int age;
+    int roll;
+
+    // Constructor with name and age
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    // Constructor with name, age, and roll
+    public Student(String name, int age, int roll) {
+        this.name = name;
+        this.age = age;
+        this.roll = roll;
+    }
+
+    public void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Roll: " + roll);
+    }
+
+    public static void main(String[] args) {
+        Student student1 = new Student("John", 20);
+        Student student2 = new Student("Alice", 22, 101);
+
+        student1.display();
+        System.out.println();
+        student2.display();
+    }
+}
