@@ -1,0 +1,34 @@
+public class Student {
+    String name;
+    int age;
+    int roll;
+
+    public void setInfo(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public void setInfo(String name, int age, int roll) {
+        this.name = name;
+        this.age = age;
+        this.roll = roll;
+    }
+
+    public void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Roll: " + roll);
+    }
+
+    public static void main(String[] args) {
+        Student student1 = new Student();
+        Student student2 = new Student();
+
+        student1.setInfo("John", 20);
+        student2.setInfo("Alice", 22, 101);
+
+        student1.display();
+        System.out.println();
+        student2.display();
+    }
+}
