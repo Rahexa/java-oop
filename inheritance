@@ -1,0 +1,29 @@
+package oop;
+
+public class Box {
+    String name;
+    int age;
+
+    void displayInformation() {
+        System.out.println(name);
+        System.out.println(age);
+    }
+
+    public static class Teacher extends Box {
+        String qualification;
+
+        void displayInformation2() {
+            System.out.println(name);
+            System.out.println(age);
+            System.out.println(qualification);
+        }
+    }
+
+    public static void main(String[] args) {
+        Teacher teacher = new Teacher(); // Creating instance of inner class
+        teacher.name = "Rahi";
+        teacher.age = 20;
+        teacher.qualification = "Masters";
+        teacher.displayInformation2();
+    }
+}
