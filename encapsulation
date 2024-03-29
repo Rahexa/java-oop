@@ -1,0 +1,60 @@
+package oop;
+
+public class Box {
+	private String name;
+	private int age;
+	
+	
+	public void setname(String name) {
+		this.name = name;
+		
+	}
+	public String getname() {
+		return name;
+		
+		
+		
+	}
+	
+	public void setage(int age) {
+		this.age = age;
+		
+	}
+	
+	public int getage() {
+		
+		return age;
+	}
+	void displayinformation() {
+		System.out.println(name);
+		System.out.println(age);
+
+	}
+	
+	
+	 public static void main(String[] args) {
+		 
+		 Box box1 = new Box();
+		 
+		box1.setname("Rahi");
+		box1.setage(20);
+		 
+		 box1.displayinformation();
+		 
+		 
+		 
+	    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
